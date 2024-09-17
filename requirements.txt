@@ -1,31 +1,31 @@
 # Base ----------------------------------------
-ultralytics==8.0.3
-hydra-core>=1.2.0
-matplotlib>=3.2.2
-numpy>=1.18.5
-opencv-python>=4.1.1
-Pillow>=7.1.2
-PyYAML>=5.3.1
-requests>=2.23.0
-scipy>=1.4.1
-torch>=1.7.0
-torchvision>=0.8.1
-tqdm>=4.64.0
+ultralytics==8.0.3  # YOLOv8 for object detection
+hydra-core>=1.2.0  # Configuration management
+matplotlib>=3.2.2  # Plotting library
+numpy>=1.18.5  # Numerical computations
+opencv-python>=4.1.1  # Computer vision tools
+Pillow>=7.1.2  # Image processing
+PyYAML>=5.3.1  # YAML parser
+requests>=2.23.0  # HTTP requests
+scipy>=1.4.1  # Scientific computing
+torch>=1.7.0  # PyTorch for deep learning
+torchvision>=0.8.1  # Image processing with PyTorch
+tqdm>=4.64.0  # Progress bar
 easyocr  # OCR tool for text extraction
 pyspellchecker  # Spell checker for OCR output
 
 # Logging -------------------------------------
-tensorboard>=2.4.1
+tensorboard>=2.4.1  # Logging and visualization
 
 # Plotting ------------------------------------
-pandas>=1.1.4
-seaborn>=0.11.0
+pandas>=1.1.4  # Data analysis
+seaborn>=0.11.0  # Statistical data visualization
 
 # Extras --------------------------------------
-ipython  # interactive notebook
-psutil  # system utilization
-thop>=0.1.1  # FLOPs computation
+ipython  # Interactive notebook environment
+psutil  # System utilization monitoring
+thop>=0.1.1  # FLOPs computation for PyTorch
 
 # HUB -----------------------------------------
-GitPython>=3.1.24
+GitPython>=3.1.24  # Interacting with Git repositories
 

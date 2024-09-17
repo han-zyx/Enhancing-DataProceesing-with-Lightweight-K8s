@@ -1,0 +1,3 @@
+python main.py model="best2.pt" source=0 show=true
+
+source env/bin/activate
